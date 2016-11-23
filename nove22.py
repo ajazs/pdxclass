@@ -18,3 +18,4 @@ else:
             hashtags = "#" * (wordlength -4)
             newword = hashtags + lastfour
 print(newword)
+# pdxclass
