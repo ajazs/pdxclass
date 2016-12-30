@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+        <div class = "square"></div>
+        <div class = "square"></div>
+
+    <div id ="circle"></div>
+    <p>This is some text</p>
+
+        <image id="off" src= "lightoff_360.jpg"/>
+        <button id="switch">on/off</button>
+<!---
+        <iframe id ="myFrame" src="http://www.cnn.com"> </iframe>
+        <button id = "myButton">click me</button>
+--->
+
+
+    <script>
+/*
+    $("myButton").click(function(){
+    $("#myFrame").attr("src","http://www.google.com");
+    });
+*/
+
+ /*   $("#circle").click(function () {
+       $(".square").fadeOut(500);
+
+   });
+
+ */
+    var ison = false;
+
+    $("#switch").click(function() {
+        console.log(ison);
+        if (ison == false) {
+
+            $("#off").attr("src", "lighton_360.jpg");
+
+            ison = true;
+        }
+
+
+    else{
+       $("#off").attr("src","lightoff_360.jpg");
+            ison = false;
+    }
+
+
+
+});
+
+
+
+
+    </script>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
