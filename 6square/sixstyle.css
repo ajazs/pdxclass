@@ -1,0 +1,35 @@
+.container{
+
+display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+
+}
+
+.boxOne{
+
+
+display: flex;
+    justify-content: space-around;
+    margin:25px;
+
+
+}
+
+.boxTwo{
+
+
+display:flex;
+    justify-content: space-around;
+    margin:25px;
+}
+
+.smallBox{
+    height:200px;
+    width:200px;
+    background-color: red;
+
+
+
+}
